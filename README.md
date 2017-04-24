@@ -1,6 +1,6 @@
 # npmtest-gulp-html-minifier
 
-#### test coverage for  [gulp-html-minifier (v0.1.8)](https://github.com/origin1tech/gulp-html-minifier)  [![npm package](https://img.shields.io/npm/v/npmtest-gulp-html-minifier.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-gulp-html-minifier) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-gulp-html-minifier.svg)](https://travis-ci.org/npmtest/node-npmtest-gulp-html-minifier)
+#### basic test coverage for  [gulp-html-minifier (v0.1.8)](https://github.com/origin1tech/gulp-html-minifier)  [![npm package](https://img.shields.io/npm/v/npmtest-gulp-html-minifier.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-gulp-html-minifier) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-gulp-html-minifier.svg)](https://travis-ci.org/npmtest/node-npmtest-gulp-html-minifier)
 
 #### Minify HTML with html-minifier.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-gulp-html-minifier/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-gulp-html-minifier/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-gulp-html-minifier/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-gulp-html-minifier/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-gulp-html-minifier/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-gulp-html-minifier/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-gulp-html-minifier/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-gulp-html-minifier/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-gulp-html-minifier/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-gulp-html-minifier/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-gulp-html-minifier/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-gulp-html-minifier/build/coverage.html/index.html)
 
@@ -94,7 +94,8 @@
     "scripts": {
         "test": "mocha --reporter spec"
     },
-    "version": "0.1.8"
+    "version": "0.1.8",
+    "bin": {}
 }
 ```
 
